@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Facebook-login or signup</title>
+	<link rel="shortcut icon" type="image/x-icon" href="logo.ico">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body>
+	<!-- Start Header part-->
+	<header class="header">
+		<div class="container">
+			<div class="logo-area">
+				<img src="facebooklogo.png" alt="facebooklogo">
+			</div>
+			<div class="login-area">
+				<form action="#" method="POST">
+					<div class="email">
+						<label for="email">Email or Phone</label>
+						<input type="text" id="email">
+					</div>
+					<div class="password">
+						<label for="password">Password</label>
+						<input type="password" id="password">
+						<a href="#">Forgotten account</a>
+					</div>
+					<div class="login">
+						<input type="submit" value="Log in">
+					</div>
+				</form>
+			</div>
+		</div>
+	</header>
+	<!-- End Header part-->
+
+	<!-- Start Section Part-->
+	<section class="signup-area">
+		<div class="container">
+		<div class="left-area">
+			<p>Facebook helps you connect and share with the people in your life</p>
+			<img src="connect-with-people.png" alt="connect-with-people">
+		</div>
+		<div class="right-area">
+			<h2>Create a new account</h2>
+			<h4>It's quick and easy.</h4>
+			<form action="#" method="POST">
+				<div class="fullname">
+					<div class="firstname">
+						<input type="text" placeholder="First name">
+					</div>
+					<div class="surname">
+						<input type="text" placeholder="Surname">
+					</div>
+				</div>
+				<input type="text" placeholder="Mobile number or email address">
+				<input type="password" placeholder="New password">
+				<div class="birthday">
+					<div class="birth-date">
+						<h4>Birthday</h4>
+						<select>
+							<option value="day">day</option>
+							<option value="1">1</option>
+							<option value="2">2</option>
+							<option value="3" selected>3</option>
+							<option value="4">4</option>
+						</select>
+						<select>
+							<option value="month">month</option>
+							<option value="jan">jan</option>
+							<option value="feb">feb</option>
+							<option value="mar" selected>mar</option>
+							<option value="apr">apr</option>
+						</select>
+						<select>
+							<option value="2020">2020</option>
+							<option value="2019" selected>2019</option>
+							<option value="2018">2018</option>
+							<option value="2017">2017</option>
+							<option value="2016">2016</option>
+						</select>
+					</div>
+					<div class="birthday-link">
+						<a href="#">&quest;</a>
+					</div>
+				</div>
+				<div class="gender">
+					<h4>Gender</h4>
+					<input id="female" type="radio" name="gender">
+					<label for="female">Female</label>
+					<input id="male" type="radio" name="gender">
+					<label for="male">Male</label>
+					<input id="custom" type="radio" name="gender">
+					<label for="custom">Custom</label>
+				</div>
+				<div class="text-box">
+					<p>By clicking Sign Up, you agree to our <a href="#"> Terms</a>,<a href="#">Data Policy</a> and <a href="">Cookie Policy</a>. You may receive SMS notifications from us and can opt out at any time</p>
+				</div>
+				<div class="btn">
+					<input type="submit" value="Sign up">
+				</div>
+			</form>
+			<span class="business"><a href="">Create a Page </a>for a celebrity, band or business.</span>
+		</div>
+		</div>
+	</section>
+	<!-- End Section part-->
+
+</body>
+</html>
